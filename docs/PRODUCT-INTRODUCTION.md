@@ -12,6 +12,7 @@ AgentTeam 是连接本机 Claude Code 的 Windows 桌面客户端。产品经理
 
 ## 三个内置场景
 
+![三个产品经理场景](images/10_scene_library.png)
 
 - **需求分析与 PRD 编写**：业务分析师梳理目标、用户与规则，交互设计师补充流程和异常，技术评估师识别依赖与风险，产品经理输出完整 PRD 和验收标准。
 - **产品方案模拟评审**：产品经理明确范围，专家独立审查，再对真实争议进行最多两轮交叉回应。保留未决分歧，形成结论与具体修改建议。
@@ -29,12 +30,19 @@ AgentTeam 是连接本机 Claude Code 的 Windows 桌面客户端。产品经理
 
 ## 自定义角色与工作方法
 
+![Agent 角色与 System Prompt](images/15_agent_editor.png)
+
 Agent 可以配置名称、职责、System Prompt、项目目录和本地 Skill。场景定义目标、成员、逐项分工顺序、最后汇总者与交付要求，支持增删改查和导入导出。修改模板用于后续新建的群聊，已有群聊保留原有配置。
+
+![自定义场景的串行接力与最终交付](images/13_scene_editor_flow.png)
 
 ## 本地 Skill
 
+![本地 Skill 全选与挂载](images/16_skills_mount.png)
 
 扫描和添加本地 Skill 目录，搜索名称或用途，逐项勾选或全选挂载。查看内容时打开独立阅读界面，支持阅读视图和源文件视图。每位 Agent 可挂载不同 Skill。
+
+![独立的 Skill 阅读界面](images/17_skill_reader.png)
 
 ## 连接与安装更新
 
